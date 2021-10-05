@@ -23,8 +23,8 @@ print
 print "Author   : LapanWasTaken"
 print "github   : https://github.com/LapanWasTaken"
 print
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+ip = raw_input("masukkan IP : ")
+port = input("masukkan PORT       : ")
 
 os.system("clear")
 os.system("figlet Attackking")
