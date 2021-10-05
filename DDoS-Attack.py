@@ -27,15 +27,15 @@ ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
 os.system("clear")
-os.system("figlet Attack Starting")
+os.system("figlet Attackking")
 print "[                    ] 0% "
-time.sleep(5)
+time.sleep(4)
 print "[=====               ] 25%"
-time.sleep(5)
+time.sleep(4)
 print "[==========          ] 50%"
-time.sleep(5)
+time.sleep(4)
 print "[===============     ] 75%"
-time.sleep(5)
+time.sleep(4)
 print "[====================] 100%"
 time.sleep(3)
 sent = 0
