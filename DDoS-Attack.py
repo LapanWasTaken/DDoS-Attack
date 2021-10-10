@@ -18,10 +18,11 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet DDos Attack")
+os.system("figlet DDoS Attack")
 print
 print "Author   : LapanWasTaken"
 print "github   : https://github.com/LapanWasTaken"
+print "Email    : lapanwastaken@gmail.com"
 print
 ip = raw_input("masukkan IP : ")
 port = input("masukkan PORT       : ")
