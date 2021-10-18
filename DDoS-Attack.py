@@ -18,12 +18,19 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet DDoS Attack")
+print (""" 
+    ____  ____       _____    ___   __  __             __  
+   / __ \/ __ \____ / ___/   /   | / /_/ /_____ ______/ /__
+  / / / / / / / __ \\__ \   / /| |/ __/ __/ __ `/ ___/ //_/
+ / /_/ / /_/ / /_/ /__/ /  / ___ / /_/ /_/ /_/ / /__/ ,<   
+/_____/_____/\____/____/  /_/  |_\__/\__/\__,_/\___/_/|_|  
+                           .:Created By LapanWasTaken:.                                
+""")
 print
-print "[+] Author   : LapanWasTaken"
-print "[+] github   : https://github.com/LapanWasTaken"
-print "[+] Email    : lapanwastaken@gmail.com"
-print "[~] Quote    : It is better to be hated for what you are than to be loved for what you are not."
+print "[+] Author      : LapanWasTaken"
+print "[+] github      : https://github.com/LapanWasTaken"
+print "[+] Telegram    : t.me/Cendawann"
+print "[~] Quote       : It is better to be hated for what you are than to be loved for what you are not."
 print
 ip = raw_input("masukkan IP : ")
 port = input("masukkan PORT       : ")
