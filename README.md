@@ -11,4 +11,4 @@ installation
 <br>
  that's all ^_^ 
  
-<img src="https://i.pinimg.com/originals/00/07/fd/0007fde98cf076bcc47f5fa59a04707f.gif" width="815px" height="450px"></img>
+<img src="https://giffiles.alphacoders.com/262/26214.gif" width="815px" height="450px"></img>
